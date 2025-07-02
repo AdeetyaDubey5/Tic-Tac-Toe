@@ -19,6 +19,7 @@ body {
     align-items: center;
     border-radius: 1rem;
     border: 1.5px black solid;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
 }
 
 .game {
@@ -44,7 +45,6 @@ body {
 .box:hover {
     cursor: pointer;
     background-color: #58806C;
-    color: white;
 }
 
 #reset {
@@ -52,10 +52,30 @@ body {
     border-radius: 1rem;
     background-color: #3E885B;
     font-size: 3vmin;
+    margin-bottom: 1rem;
 }
 
 #reset:hover {
     cursor: pointer;
     background-color: #58806C;
     color: white;
+}
+
+.msg-cont {
+    margin-top: 0.01rem;
+    margin-bottom: 1rem;
+    font: 5vmin Arial, sans-serif;
+    color: #2F4B26;
+}
+
+.hide {
+    display: none;
+}
+.no-hover {
+    pointer-events: none;
+}
+
+#msg {
+    font-size: 3vmin;
+    color: #a23e48;
 }
